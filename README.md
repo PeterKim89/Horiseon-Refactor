@@ -1,5 +1,5 @@
 # Horiseon-Webpage-Refactoring-Practice
-[![Release Date](https://img.shields.io/github/release-date/PeterKim89/Horiseon-Webpage-Refactoring-Practice)]
+![Horiseon](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)
 
 ## Introduction
 This project was created to gain an insight at looking at another person's pre-existing code.
@@ -23,14 +23,14 @@ After following the url, the webpage should look like the following image.
 The links in the navigation cluster should redirect the page to their respective areas.
 
 ```md
-![Webpage Template](assets/images/01-html-css-git-homework-demo.png)
+![Webpage Template](./assets/images/01-html-css-git-homework-demo.png)
 ```
 
 ## Credits
-[GitHub](https://github.com/PeterKim89)
-[LinkedIn](www.linkedin.com/in/peter-kim89)
+[GitHub](https://github.com/PeterKim89) <br>
+[LinkedIn](www.linkedin.com/in/peter-kim89)    
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/) <br>
 Copyright (c) [2022] [Peter Kim]
 
