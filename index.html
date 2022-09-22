@@ -3,11 +3,14 @@
 
 <head>
     <meta charset="UTF-8" />
+    <!-- add viewport -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon Refactoring Practice</title>
 </head>
 
 <body>
+    <!-- changed div to header -->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
@@ -24,10 +27,17 @@
             </ul>
         </div>
     </header>
-    <figure class="hero"></figure>
+
+    <!-- changed hero div to a section -->
+    <section class="hero"></section>
+
+    <!-- included a main element -->
     <main>
+        <!-- changed from div to section -->
         <section class="content">
+            <!-- changed following divs into figures -->
             <figure class="search-engine-optimization">
+                <!-- added alt text for image -->
                 <img src="./assets/images/search-engine-optimization.jpg" alt="a notebook page with ideas on how to increase search engine optimization" class="float-left" />
                 <h2>Search Engine Optimization</h2>
                 <p>
@@ -35,6 +45,7 @@
                 </p>
             </figure>
             <figure id="online-reputation-management" class="online-reputation-management">
+                <!-- added alt text for image -->
                 <img src="./assets/images/online-reputation-management.jpg" alt="various graphs showing reputation is increasing" class="float-right" />
                 <h2>Online Reputation Management</h2>
                 <p>
@@ -42,6 +53,7 @@
                 </p>
             </figure>
             <figure id="social-media-marketing" class="social-media-marketing">
+                <!-- added alt text for image -->
                 <img src="./assets/images/social-media-marketing.jpg" alt="colorful social media terms and icons with 6 people" class="float-left" />
                 <h2>Social Media Marketing</h2>
                 <p>
@@ -49,23 +61,29 @@
                 </p>
             </figure>
         </section>
+        <!-- changed from div to section -->
         <section class="benefits">
-            <figure class="benefit-lead">
+            <!-- changed the following divs into figures -->
+            <!-- removed each figure's class tag to avoid redundancy -->
+            <figure>
                 <h3>Lead Generation</h3>
+                <!-- added alt text for image -->
                 <img src="./assets/images/lead-generation.png" alt="a gear funneling into a circle with a dollar sign"/>
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                 </p>
             </figure>
-            <figure class="benefit-brand">
+            <figure>
                 <h3>Brand Awareness</h3>
+                <!-- added alt text for image -->
                 <img src="./assets/images/brand-awareness.png" alt="a person with a shining lightbulb as their head"/>
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                 </p>
             </figure>
-            <figure class="benefit-cost">
+            <figure>
                 <h3>Cost Management</h3>
+                <!-- added alt text for image -->
                 <img src="./assets/images/cost-management.png" alt="a gear behind 3 circles with dollar signs on them" />
                 <p>
                     As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
@@ -73,6 +91,7 @@
             </figure>
         </section>
     </main>
+    <!-- changed div to footer -->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
