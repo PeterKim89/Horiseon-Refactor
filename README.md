@@ -22,9 +22,7 @@ Instead of giving feedback, I refactored their webpage HTML and CSS to reduce re
 After following the url, the webpage should look like the following image.
 The links in the navigation cluster should redirect the page to their respective areas.
 
-```md
-![Webpage Template](./assets/images/01-html-css-git-homework-demo.png)
-```
+![Webpage Template](/assets/images/01-html-css-git-homework-demo.png)
 
 ## Credits
 [GitHub](https://github.com/PeterKim89) <br>
