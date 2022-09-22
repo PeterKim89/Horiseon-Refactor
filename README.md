@@ -23,10 +23,10 @@ After following the url, the webpage should look like the following image.
 The links in the navigation cluster should redirect the page to their respective areas.
 
 ```md
-![Webpage Template](./assets/images/01-html-css-git-homework-demo.png)
+![Webpage Template](/assets/images/01-html-css-git-homework-demo.png)
 ```
 
-## Credits
+## Contact
 [GitHub](https://github.com/PeterKim89) <br>
 [LinkedIn](www.linkedin.com/in/peter-kim89)    
 
