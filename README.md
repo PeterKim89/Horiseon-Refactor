@@ -24,6 +24,58 @@ The links in the navigation cluster should redirect the page to their respective
 
 ![Webpage Template](/assets/images/01-html-css-git-homework-demo.png)
 
+## Code Snippet
+An example of consolidating the various benefit-* h3 classes into a single class.
+```
+.benefits section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* .benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+} */
+```
+
+The large encapsulating div was changed into an aside, while the nested divs were changed into sections.
+I also added alt text to each of the images.
+Also because of the above CSS change, there was no longer a need for class tags to be used here.
+```
+<aside class="benefits">
+    <section>
+        <h3>Lead Generation</h3>
+        <img src="./assets/images/lead-generation.png" alt="a gear funneling into a circle with a dollar sign"/>
+        <p>
+            Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+        </p>
+    </section>
+    <section>
+        <h3>Brand Awareness</h3>
+        <img src="./assets/images/brand-awareness.png" alt="a person with a shining lightbulb as their head"/>
+        <p>
+            Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+        </p>
+    </section>
+    <section>
+        <h3>Cost Management</h3>
+        <img src="./assets/images/cost-management.png" alt="a gear behind 3 circles with dollar signs on them" />
+        <p>
+            As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+        </p>
+    </section>
+</aside>
+```
 ## Contact
 [GitHub](https://github.com/PeterKim89) <br>
 [LinkedIn](www.linkedin.com/in/peter-kim89)    
